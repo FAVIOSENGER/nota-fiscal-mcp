@@ -9,8 +9,8 @@ automatizar por você). Tempo total: ~20-30 min na primeira vez.
 2. 👤 Conta no **npm** — https://www.npmjs.com/signup
 3. Node.js instalado ✅ (você já tem — v24)
 
-> Antes de tudo: troque **FAVIOSENGER** por seu usuário real nos arquivos
-> `package.json` e `server.json`. (Me avisa seu usuário que eu faço isso pra você.)
+> Os arquivos `package.json` e `server.json` já estão com seu usuário (FAVIOSENGER)
+> preenchido. Nada a trocar.
 
 ---
 
@@ -74,7 +74,6 @@ Pronto: quem procurar "nota fiscal" / "nfe" no registro de MCP acha o seu.
 
 ## Checklist final
 
-- [ ] Trocar FAVIOSENGER em package.json e server.json
 - [ ] git push pro GitHub
 - [ ] npm publish
 - [ ] mcp-publisher publish
