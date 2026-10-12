@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.SEU_USUARIO_GITHUB/nota-fiscal-mcp",
+  "description": "Emissao, consulta e cancelamento de NF-e e NFS-e no Brasil para agentes de IA, via Focus NFe.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/SEU_USUARIO_GITHUB/nota-fiscal-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registry_type": "npm",
+      "identifier": "nota-fiscal-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environment_variables": [
+        {
+          "name": "FOCUS_NFE_TOKEN",
+          "description": "Token da conta Focus NFe (homologacao ou producao).",
+          "is_required": true,
+          "is_secret": true
+        },
+        {
+          "name": "FOCUS_NFE_AMBIENTE",
+          "description": "Ambiente: 'homologacao' (padrao) ou 'producao'.",
+          "is_required": false,
+          "is_secret": false
+        }
+      ]
+    }
+  ]
+}

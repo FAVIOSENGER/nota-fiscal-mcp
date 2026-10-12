@@ -1,0 +1,45 @@
+{
+  "name": "nota-fiscal-mcp",
+  "version": "0.1.0",
+  "description": "Servidor MCP para emissao, consulta e cancelamento de NF-e e NFS-e no Brasil. Permite que agentes de IA (Claude, etc.) operem notas fiscais via um provedor (Focus NFe).",
+  "license": "MIT",
+  "author": "Favio Senger",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEU_USUARIO_GITHUB/nota-fiscal-mcp.git"
+  },
+  "homepage": "https://github.com/SEU_USUARIO_GITHUB/nota-fiscal-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/SEU_USUARIO_GITHUB/nota-fiscal-mcp/issues"
+  },
+  "type": "module",
+  "bin": {
+    "nota-fiscal-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "nota-fiscal",
+    "nfe",
+    "nfse",
+    "brasil",
+    "fiscal"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
