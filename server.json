@@ -1,32 +1,34 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.faviosenger/nota-fiscal-mcp",
   "description": "Emissao, consulta e cancelamento de NF-e e NFS-e no Brasil para agentes de IA, via Focus NFe.",
-  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/FAVIOSENGER/nota-fiscal-mcp",
     "source": "github"
   },
+  "version": "0.1.1",
   "packages": [
     {
-      "registry_type": "npm",
+      "registryType": "npm",
       "identifier": "nota-fiscal-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "transport": {
         "type": "stdio"
       },
-      "environment_variables": [
+      "environmentVariables": [
         {
           "name": "FOCUS_NFE_TOKEN",
           "description": "Token da conta Focus NFe (homologacao ou producao).",
-          "is_required": true,
-          "is_secret": true
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
         },
         {
           "name": "FOCUS_NFE_AMBIENTE",
           "description": "Ambiente: 'homologacao' (padrao) ou 'producao'.",
-          "is_required": false,
-          "is_secret": false
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
         }
       ]
     }
