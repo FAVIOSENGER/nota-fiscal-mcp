@@ -6,11 +6,11 @@
   "author": "Favio Senger",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SEU_USUARIO_GITHUB/nota-fiscal-mcp.git"
+    "url": "git+https://github.com/FAVIOSENGER/nota-fiscal-mcp.git"
   },
-  "homepage": "https://github.com/SEU_USUARIO_GITHUB/nota-fiscal-mcp#readme",
+  "homepage": "https://github.com/FAVIOSENGER/nota-fiscal-mcp#readme",
   "bugs": {
-    "url": "https://github.com/SEU_USUARIO_GITHUB/nota-fiscal-mcp/issues"
+    "url": "https://github.com/FAVIOSENGER/nota-fiscal-mcp/issues"
   },
   "type": "module",
   "bin": {

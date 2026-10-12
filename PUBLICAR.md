@@ -9,7 +9,7 @@ automatizar por você). Tempo total: ~20-30 min na primeira vez.
 2. 👤 Conta no **npm** — https://www.npmjs.com/signup
 3. Node.js instalado ✅ (você já tem — v24)
 
-> Antes de tudo: troque **SEU_USUARIO_GITHUB** por seu usuário real nos arquivos
+> Antes de tudo: troque **FAVIOSENGER** por seu usuário real nos arquivos
 > `package.json` e `server.json`. (Me avisa seu usuário que eu faço isso pra você.)
 
 ---
@@ -27,7 +27,7 @@ git commit -m "nota-fiscal-mcp v0.1.0"
 (público, sem README/licença — já temos). Depois:
 
 ```bash
-git remote add origin https://github.com/SEU_USUARIO_GITHUB/nota-fiscal-mcp.git
+git remote add origin https://github.com/FAVIOSENGER/nota-fiscal-mcp.git
 git branch -M main
 git push -u origin main
 ```
@@ -42,7 +42,7 @@ npm publish --access public
 ```
 
 Se o nome `nota-fiscal-mcp` já existir no npm, a gente troca para
-`@SEU_USUARIO_GITHUB/nota-fiscal-mcp` (me avisa que ajusto).
+`@FAVIOSENGER/nota-fiscal-mcp` (me avisa que ajusto).
 
 Teste rápido depois de publicar:
 
@@ -74,7 +74,7 @@ Pronto: quem procurar "nota fiscal" / "nfe" no registro de MCP acha o seu.
 
 ## Checklist final
 
-- [ ] Trocar SEU_USUARIO_GITHUB em package.json e server.json
+- [ ] Trocar FAVIOSENGER em package.json e server.json
 - [ ] git push pro GitHub
 - [ ] npm publish
 - [ ] mcp-publisher publish
