@@ -9,7 +9,7 @@ automatizar por você). Tempo total: ~20-30 min na primeira vez.
 2. 👤 Conta no **npm** — https://www.npmjs.com/signup
 3. Node.js instalado ✅ (você já tem — v24)
 
-> Os arquivos `package.json` e `server.json` já estão com seu usuário (FAVIOSENGER)
+> Os arquivos `package.json` e `server.json` já estão com seu usuário (FavioASenger)
 > preenchido. Nada a trocar.
 
 ---
@@ -27,7 +27,7 @@ git commit -m "nota-fiscal-mcp v0.1.0"
 (público, sem README/licença — já temos). Depois:
 
 ```bash
-git remote add origin https://github.com/FAVIOSENGER/nota-fiscal-mcp.git
+git remote add origin https://github.com/FavioASenger/nota-fiscal-mcp.git
 git branch -M main
 git push -u origin main
 ```
@@ -42,7 +42,7 @@ npm publish --access public
 ```
 
 Se o nome `nota-fiscal-mcp` já existir no npm, a gente troca para
-`@FAVIOSENGER/nota-fiscal-mcp` (me avisa que ajusto).
+`@FavioASenger/nota-fiscal-mcp` (me avisa que ajusto).
 
 Teste rápido depois de publicar:
 
