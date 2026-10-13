@@ -1,7 +1,7 @@
 {
   "name": "nota-fiscal-mcp",
-  "version": "0.1.1",
-  "mcpName": "io.github.faviosenger/nota-fiscal-mcp",
+  "version": "0.1.2",
+  "mcpName": "io.github.FAVIOSENGER/nota-fiscal-mcp",
   "description": "Servidor MCP para emissao, consulta e cancelamento de NF-e e NFS-e no Brasil. Permite que agentes de IA (Claude, etc.) operem notas fiscais via um provedor (Focus NFe).",
   "license": "MIT",
   "author": "Favio Senger",

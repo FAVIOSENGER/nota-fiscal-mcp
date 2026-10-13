@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.faviosenger/nota-fiscal-mcp",
+  "name": "io.github.FAVIOSENGER/nota-fiscal-mcp",
   "description": "Emissao, consulta e cancelamento de NF-e e NFS-e no Brasil para agentes de IA, via Focus NFe.",
   "repository": {
     "url": "https://github.com/FAVIOSENGER/nota-fiscal-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "nota-fiscal-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
