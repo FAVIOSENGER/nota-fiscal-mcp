@@ -118,6 +118,8 @@ PROVIDER=mock node test/client.mjs   # testa as 6 ferramentas em simulação
 **v0.1.2** — primeira geração pública. Suporte a NF-e e NFS-e via Focus NFe.
 Os campos do payload seguem o padrão da [documentação da Focus NFe](https://doc.focusnfe.com.br); confirme os dados do seu município antes de produção.
 
+📖 **Artigo / tutorial:** [Como fazer a IA emitir sua nota fiscal (NF-e e NFS-e) usando MCP](https://dev.to/favio/como-fazer-a-ia-emitir-sua-nota-fiscal-nf-e-e-nfs-e-usando-mcp-3o3e)
+
 Ideias, bugs e sugestões: [abra uma issue](https://github.com/FAVIOSENGER/nota-fiscal-mcp/issues).
 
 ## 📄 Licença
